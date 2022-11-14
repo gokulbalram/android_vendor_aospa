@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq (pa_oneplus8,$(TARGET_PRODUCT))
+ifeq (aospa_oneplus8,$(TARGET_PRODUCT))
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/oneplus/oneplus8/device.mk)
 
 # Inherit from the AOSPA configuration.
-$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -30,7 +30,7 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_DEVICE := oneplus8
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := OnePlus 8
-PRODUCT_NAME := pa_oneplus8
+PRODUCT_NAME := aospa_oneplus8
 
 # Override device name for Play Store.
 PRODUCT_BUILD_PROP_OVERRIDES += \
