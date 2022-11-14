@@ -49,6 +49,12 @@
         "revision":     "topaz-SN100X-legacy"
     },
     {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "topaz"
+    },
+    {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
