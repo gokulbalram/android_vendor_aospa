@@ -2,9 +2,9 @@
 
     {
         "remote":       "aospa",
-        "repository":   "33bca/android_device_oneplus_oneplus8",
+        "repository":   "gokulbalram/android_device_oneplus_oneplus8",
         "target_path":  "device/oneplus/oneplus8",
-        "revision":     "sapphire"
+        "revision":     "topaz"
     },
     {
         "remote":       "aospa",

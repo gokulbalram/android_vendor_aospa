@@ -26,7 +26,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/panther/aospa_panther.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
     $(LOCAL_DIR)/raven/aospa_raven.mk \
-    $(LOCAL_DIR)/raven/aospa_oneplus8.mk \
+    $(LOCAL_DIR)/oneplus8/aospa_oneplus8.mk 
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
